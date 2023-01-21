@@ -1,11 +1,4 @@
-/*
- * Student Name: Syrus Samson
- * Student ID: 041065391
- * Course: CST8209 - Web Programming I
- * Semester: 1
- * Assignment: Assignment 4
- * Date Submitted:  Dec 17, 2022
- */
+/* Event Calendar - Sy Constantin, 2023 */
 
 //function Event 
 function Event(displayDate, title, description) {
@@ -18,14 +11,6 @@ function Event(displayDate, title, description) {
     return document.text(this.title);
   }
 }
-/**********************************************************************
- * Title: Input Text value Property
- * Author: Refsnes Data & contributors
- * Date: November 24, 2022
- * Code Version: n.a
- * Availability: https://www.w3schools.com/jsref/prop_text_value.asp
- * 
- **********************************************************************/
 //clear input fields
 function clearAll() {
   document.getElementById('date').value = '';
@@ -94,20 +79,6 @@ function Calendar(elem) {
 
     // previous and next month buttons call the cal.display() method, with parameters of year displayed, but previous or next month -- dates will "carry forward", increasing or decreasing the year automatically
 
-    /**************************************************************
-*    Title: .attr() 
-*    Author: jQuery foundation & contributors
-*    Date accessed: Nov 24 2022
-*    Code version: n.a
-*    Availability: https://api.jquery.com/attr/
-
-*    Title: .text() 
-*    Author: jQuery foundation & contributors
-*    Date accessed: Nov 24 2022
-*    Code version: n.a
-*    Availability: https://api.jquery.com/text/
-
-*******************************************************************/
     //previous button
     let tableRow = $('<tr>').attr('class', 'headerRow')
     let tableData = $('<td>')

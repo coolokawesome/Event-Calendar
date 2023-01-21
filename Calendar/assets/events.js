@@ -1,5 +1,4 @@
-/*Syrus Samson, 2022
- * Created:  Dec 30, 2022
+/* Event Calendar - Sy Constantin, 2023 
  */
 button = document.querySelectorAll('navButton').forEach(addEventListener('click', e => {
     cell = document.querySelectorAll(("[id*='date']"))

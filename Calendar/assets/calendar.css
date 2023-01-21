@@ -2,12 +2,8 @@
  * Created:  Dec 30, 2022
  */
 body {
-  /* background: linear-gradient(-190deg, #b2dcec, #99c7ca, #bec2c1, #d6b9b9); 
-      background-size: 400% 400%;
-    animation: gradient 12s ease infinite;*/
   background-image: url(https://images.unsplash.com/photo-1483354483454-4cd359948304?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
-
-    background-size: cover;
+  background-size: cover;
 }
 
 @keyframes gradient {
@@ -21,8 +17,6 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
-
 
 h1 {
   font-family: 'Open Sans', sans-serif;

@@ -65,7 +65,7 @@ tbody {
 
 button {
   background: rgba(255, 255, 255, 0.384) !important;
-  border-radius: 2px;
+  border-radius: 7px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(12.7px);
   -webkit-backdrop-filter: blur(12.7px);
@@ -137,7 +137,7 @@ td {
   margin: 2px;  
 }
 th {
-  border-radius: 1px;
+  border-radius: 3px;
   margin: 100px;
   padding: 10px;
   font-size: 3vh;
@@ -155,6 +155,7 @@ th {
   text-align: left;
   height: 8vh;
   font-size: 1.5vh;
+  border-radius: 3px;
 
   background: rgba(255, 255, 255, 0.45);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -258,7 +259,7 @@ table {
   margin-right: auto;
   text-align: center;
   width: 95vw;
-  height: 80%;
+  height:260%;
   table-layout: fixed;
   border-spacing: 10px;
 }

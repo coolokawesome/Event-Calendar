@@ -67,11 +67,6 @@ function Calendar(elem) {
       days.push(new Date(displayDate.getFullYear(), displayDate.getMonth(), i));
     }
 
-    /*print the display month header*/
-    const header1 = $('<h1>').text(this.monthNames[this.displayDate.getMonth()] + " " + this.displayDate.getFullYear()).attr('id', 'dateHeader')
-
-
-    $('#calendar').append(header1)
 
     //generate tabular calendar
     let table = $('<table>')
@@ -92,7 +87,7 @@ function Calendar(elem) {
     tableRow.append(tableData);
 
     //colspan table
-    let colTable = $('<td>').attr('colspan', '5').attr('id', 'middle');
+    let colTable = $('<td>').attr('colspan', '5').attr('id', 'middle').append( $('<h1>').text(this.monthNames[this.displayDate.getMonth()] + " " + this.displayDate.getFullYear()).attr('id', 'dateHeader'));
     $(tableRow).append(colTable);
     $(tbody).append(tableRow);
 
